@@ -1,0 +1,8 @@
+
+body{margin:0;color:#fff;font-family:Arial;background:linear-gradient(-45deg,#0f172a,#312e81,#0f766e,#7c3aed);background-size:400% 400%;animation:g 15s ease infinite}
+@keyframes g{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
+nav{position:fixed;top:0;width:100%;display:flex;gap:20px;justify-content:center;padding:15px;background:rgba(0,0,0,.2);backdrop-filter:blur(8px)}
+a{color:white;text-decoration:none}.hero,section{min-height:100vh;padding:100px 40px}.hero{display:flex;align-items:center;justify-content:center}
+.glass{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);padding:24px;border-radius:20px}
+.grid,.resume{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+input,textarea{width:100%;margin:8px 0;padding:10px} .btn{padding:10px 18px;border-radius:10px;border:0}
